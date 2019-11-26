@@ -78,7 +78,7 @@ class WaitDialog(QtGui.QWidget):
 
     def stopButtonClicked(self):
         self.playerControl.Stop()
-        self.label = QtGui.QLabel("Ready ...")
+        self.label.setText("Ready ...")
         self.label.setStyleSheet("QLabel{color:cyan;}")
 
     def play(self, label="Playing !"):
