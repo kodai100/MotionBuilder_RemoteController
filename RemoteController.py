@@ -136,7 +136,3 @@ else:
     
     if gDEVELOPMENT:
         ShowTool(tool)
-
-
-
-app = WaitDialog()
